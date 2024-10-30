@@ -478,7 +478,7 @@ vip_scores <- vip(final_plsda) %>%
 
 results <- inner_join(univariate_results, vip_scores, by = "Metabolite Name")
 
-write.csv(results, "results.csv", row.names = FALSE
+write.csv(results, "results.csv", row.names = FALSE)
 
 
 
